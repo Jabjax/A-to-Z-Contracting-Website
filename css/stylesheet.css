@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:300,400,700');
+
+/* Basic Page CSS */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  position: relative;
+  background: rgba(185, 185, 185, 0.25);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Header Navigation */
+
+header .navbar {
+  padding: 30px 0;
+  transition: all .5s ease-out;
+}
+
+header .navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+header .navbar-default .navbar-nav a {
+  color: white;
+  padding: 5px 8px;
+  text-shadow: .5px .5px .5px gray;
+}
+
+header .navbar-default .navbar-nav a:hover {
+  color: #c9192e;
+}
+
+header .navbar-default .navbar-nav .active a {
+  font-weight: 700;
+  color:#c9192e;
+  border-bottom: 4px solid #ffffff;
+  text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+  color: #c9192e;
+  background: transparent;
+  text-shadow: none;
+}
+
+header .navbar-default .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+#home {
+  display: none;
+}
+
+/* Navbar Brand */
+
+header #logo {
+  background-image: url(../images/logo/a_to_z_logo_full-sm.png);
+  background-repeat: no-repeat;
+  background-position: 15px 0;
+  height:50px;
+  width: 50px;
+  background-size:cover;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+header .navbar-brand h1 {
+  display: none;
+}
+
+/* Navbar Toggle */
+
+header .navbar-toggle {
+  background-color: #b52222;
+  margin-top: 13px;
+}
+
+header .navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+@media only screen
+and (max-width:768px) {
+  header .navbar-collapse.in {
+    background-color: rgba(75, 75, 75, 1);
+  }
+}
+
+/* Nav Inbody */
+
+header .inbody a.navbar-brand {
+  height:50px;
+  margin-bottom: 5px;
+<<<<<<< HEAD
+=======
+  padding bottom 0
+  display: none;
+>>>>>>> 6ccb957da914f5786e4f669831e0299a7a50c6f9
+}
+
+header .inbody .navbar-brand h1 {
+  display: block;
+}
+
+header .inbody {
+  background-color: rgb(85, 85, 85);
+}
+
+header .navbar.inbody {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+header .navbar.inbody .navbar-nav {
+  padding-top: 14px;
+}
+
+header .navbar.inbody .navbar-nav a {
+  color:#ffffff;
+}
+
+header .navbar.inbody .navbar-nav .active a {
+  color:#c9192e;
+}
+
+header .inbody .navbar-brand {
+  background-image: url(../images/logo/a_to_z_logo_icon.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 3%;
+}
+
+header .inbody .navbar-brand h1 {
+  font-size: 1em;
+  padding-left: 35px;
+  color: white;
+  font-weight: 700;
+}
+
+/* Carousel Fade */
+
+.carousel.fade {
+  opacity: 1;
+}
+
+.carousel.fade .item {
+  transition: opacity ease-out .7s;
+  left: 0;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+
+.carousel.fade .item:first-child {
+  top: auto;
+  opacity: 1;
+  position: relative;
+}
+
+.carousel.fade .item.active {
+  opacity: 1;
+}
+
+.carousel-control {
+  opacity: 0;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+
+#featured .item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Page */
+
+.page {
+  padding: 50px 0;
+}
+
+.page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #c9192e;
+  font-size: 2.5em;
+  text-shadow: .5px .5px .5px gray;
+  font-weight: 700;
+}
+
+.page {
+  border-bottom: thick dotted rgb(208, 208, 208);
+}
+
+/* Page -- Mission */
+
+#mission .row p {
+  text-align: center;
+  padding: 0 5% 0 5%;
+}
+
+/* Page -- Services */
+
+.service {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#services {
+
+}
+
+#services img {
+  display: block;
+  width: 80px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width:40%;
+}
+
+#services h3 {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 450px) and (max-width: 768px){
+  .service-icon p {
+    padding: 0 20%;
+  }
+}
+
+/* Add Services */
+
+.addservice {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#addservices img {
+  display: block;
+  width: 80px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 40%;
+}
+
+#addservices h3 {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 450px) and (max-width: 768px){
+  .addservice p {
+    padding: 0 20%;
+  }
+}
+
+/* Page -- Staff */
+
+.staff {
+  margin: 10px 0;
+}
+
+.staff h3 {
+  font-weight: 500;
+  font-size: 1.2em;
+  color: #2e2e2e;
+  padding-bottom: 5px;
+}
+
+.staff h4 {
+  font-weight: 400;
+  font-size: 1em;
+  color: #c9192e;
+  padding-bottom: 5px;
+}
+
+.staff p {
+  font-size: .8em;
+  font-weight: 300;
+}
+
+.staff img {
+  width: 100%;
+}
+
+/* Contact Form */
+
+#contact-form label, p {
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-size: .8em;
+}
+
+/* Footer */
+
+footer {
+  background: #586d74;
+  color: white;
+  font-size: .8em;
+  padding: 20px 0 40px 0;
+}
+
+footer .phone {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #e0e6ae;
+}
+
+footer .email {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #e0e6ae;
+}
