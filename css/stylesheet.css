@@ -267,7 +267,7 @@ header .inbody .navbar-brand h1 {
 /* Page -- Projects */
 
 #projects {
-	margin-top: 30px;
+	padding-top: 30px;
 }
 
 #proj-carousel {
