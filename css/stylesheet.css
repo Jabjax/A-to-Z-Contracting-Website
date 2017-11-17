@@ -62,7 +62,7 @@ header .navbar-default .navbar-nav>li>a:focus {
 
 /* Navbar Brand */
 
-header #logo {
+/*header #logo {
   background-image: url(../images/logo/a_to_z_logo_full-sm.png);
   background-repeat: no-repeat;
   background-position: 15px 0;
@@ -70,7 +70,7 @@ header #logo {
   width: 50px;
   background-size:cover;
   background-color: rgba(255, 255, 255, 0.5);
-}
+}*/
 
 header .navbar-brand h1 {
   display: none;
@@ -94,16 +94,17 @@ and (max-width:768px) {
   }
 }
 
+@media only screen and (max-width:993px) and (min-width:768px) {
+   .navbar-nav {
+    font-size: .9em !important;
+  }
+}
+
 /* Nav Inbody */
 
 header .inbody a.navbar-brand {
   height:50px;
   margin-bottom: 5px;
-<<<<<<< HEAD
-=======
-  padding bottom 0
-  display: none;
->>>>>>> 6ccb957da914f5786e4f669831e0299a7a50c6f9
 }
 
 header .inbody .navbar-brand h1 {
@@ -138,7 +139,7 @@ header .inbody .navbar-brand {
   background-position: top left;
   margin-top: 5px;
   padding-bottom: 5px;
-  margin-left: 3%;
+  margin-left: 5%;
 }
 
 header .inbody .navbar-brand h1 {
@@ -230,7 +231,6 @@ header .inbody .navbar-brand h1 {
 
 #services img {
   display: block;
-  width: 80px;
   margin: 0 auto;
   margin-bottom: 10px;
   width:40%;
@@ -255,7 +255,6 @@ header .inbody .navbar-brand h1 {
 
 #addservices img {
   display: block;
-  width: 80px;
   margin: 0 auto;
   margin-bottom: 10px;
   width: 40%;
@@ -269,6 +268,21 @@ header .inbody .navbar-brand h1 {
   .addservice p {
     padding: 0 20%;
   }
+}
+
+/* Page -- Projects */
+
+#proj-container {
+	padding-top: 30px;
+}
+
+#proj-carousel {
+	max-height: 70vh;
+}
+
+.center-block{
+	max-height: 70vh;
+	max-width: 70vh;
 }
 
 /* Page -- Staff */
