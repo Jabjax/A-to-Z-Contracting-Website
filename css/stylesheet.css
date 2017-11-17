@@ -99,11 +99,6 @@ and (max-width:768px) {
 header .inbody a.navbar-brand {
   height:50px;
   margin-bottom: 5px;
-<<<<<<< HEAD
-=======
-  padding bottom 0
-  display: none;
->>>>>>> 6ccb957da914f5786e4f669831e0299a7a50c6f9
 }
 
 header .inbody .navbar-brand h1 {
@@ -138,7 +133,7 @@ header .inbody .navbar-brand {
   background-position: top left;
   margin-top: 5px;
   padding-bottom: 5px;
-  margin-left: 3%;
+  margin-left: 5%;
 }
 
 header .inbody .navbar-brand h1 {
@@ -230,7 +225,6 @@ header .inbody .navbar-brand h1 {
 
 #services img {
   display: block;
-  width: 80px;
   margin: 0 auto;
   margin-bottom: 10px;
   width:40%;
@@ -255,7 +249,6 @@ header .inbody .navbar-brand h1 {
 
 #addservices img {
   display: block;
-  width: 80px;
   margin: 0 auto;
   margin-bottom: 10px;
   width: 40%;
@@ -269,6 +262,12 @@ header .inbody .navbar-brand h1 {
   .addservice p {
     padding: 0 20%;
   }
+}
+
+/* Page -- Projects */
+
+#pro-carousel .carousel-item {
+	width: 100px;
 }
 
 /* Page -- Staff */

@@ -3,7 +3,7 @@ $(function() {
   "use strict";
 
   var topoffset = 50; // variable for menu height
-  var slideqty = $('#featured .item').length; // number of dots
+  //var slideqty = $('#featured .item').length; // number of dots
   var wheight = $(window).height(); // get the height of the window
 
   $('.fullheight').css('height', wheight); // set to window tallness
