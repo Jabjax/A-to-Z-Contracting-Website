@@ -266,18 +266,17 @@ header .inbody .navbar-brand h1 {
 
 /* Page -- Projects */
 
-/*#pro-carousel .carousel-item {
-	width: 100px;
-}*/
+#projects {
+	margin-top: 30px;
+}
 
-.carousel-inner {
-	max-height: 100vh;
-	/*max-width: 100vh;*/
+#proj-carousel {
+	max-height: 70vh;
 }
 
 .center-block{
-	max-height: 100vh;
-	max-width: 100vh;
+	max-height: 70vh;
+	max-width: 70vh;
 }
 
 /* Page -- Staff */
