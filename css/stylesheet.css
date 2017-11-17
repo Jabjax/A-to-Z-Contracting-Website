@@ -62,7 +62,7 @@ header .navbar-default .navbar-nav>li>a:focus {
 
 /* Navbar Brand */
 
-header #logo {
+/*header #logo {
   background-image: url(../images/logo/a_to_z_logo_full-sm.png);
   background-repeat: no-repeat;
   background-position: 15px 0;
@@ -70,7 +70,7 @@ header #logo {
   width: 50px;
   background-size:cover;
   background-color: rgba(255, 255, 255, 0.5);
-}
+}*/
 
 header .navbar-brand h1 {
   display: none;
